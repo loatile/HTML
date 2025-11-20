@@ -5,6 +5,8 @@ const card = document.getElementById("card");
 const borderIn = document.getElementById("borderIn");
 const ageIn = document.getElementById("ageIn");
 const disAge = document.getElementById("disAge");
+const birthIn = document.getElementById("birthIn");
+const disBirh = document.getElementById("disBirth");
 const classIn = document.getElementsByName("class");
 const disClass = document.getElementById("disCLass");
 const fColor = document.getElementById("fColor");
@@ -29,6 +31,10 @@ function updateAge(){
     disAge.textContent = ageIn.value;
 }
 ageIn.oninput = updateAge;
+
+function updateBirth(){
+    disAge.textContent = ageIn.value;
+}
 ageIn.oninput = updateBirth;
 
 function updateClass(){
