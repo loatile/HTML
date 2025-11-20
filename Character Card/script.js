@@ -48,6 +48,7 @@ classIn.forEach(function(radio){
     radio.oninput = updateClass
 })
 
+
 function updateFont(){
     const changeColor = fColor.value;
     card.style.color = changeColor;
