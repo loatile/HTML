@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Character Card</title>
+</head>
+<body>
+    <div id  = "container">
+        <div id = "controls">
+            <h3>Settings</h3>
+            <input id = "nameIn" name = "settings" type = "text" placeholder="Input character name">
+            <br>
+            <label for = "colorIn">Select Color: </label>
+            <br>
+            <input id = "colorIn" name = "settings" type = "color" value="#ffff">
+            <br>
+            <label for="borderIn">Adjust Border Radisu: </label>
+            <br>
+            <input id = "borderIn" name="settings" type="range" min = "0" max = "50" step = "5" >
+            <br>
+            <lable for="ageIn">Select Character Age: </lable>
+            <br>
+            <lable>Class:  </lable>
+            <br>
+            <label for="warrior">Warrior: </label>
+            <input id = "warrior" name = "class" type = "radio" value = "warrior">
+            <label for="mage">Mage: </label>
+            <input id = "mage" name = "class" type = "radio" value = "mage">
+            <label for="Rogue">Rogue: </label>
+            <input id = "rogue" name = "class" type = "radio" value = "rogue">
+            <br>
+            <label for = "fColor">Change font colour: </label>
+            <input type = "color" id = "fColor" name = "settings">
+        </div>
+        <div id = "characterCard">
+            <div id = "card">
+                <h4 id = "disName">Character name here</h4>
+                <p id = "disClass">Class</p>
+                <p id = "disAge">Age</p>
+            </div>
+           
+        </div>
+    </div>
+
+<script src = "script.js"></script>
+</body>
+</html>
